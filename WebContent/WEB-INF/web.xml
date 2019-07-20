@@ -13,4 +13,13 @@
         <servlet-name>simpleServlet</servlet-name>
         <url-pattern>/simpleServlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>simpleJSPServlet</servlet-name>
+        <servlet-class>com.example.java.SimpleJSPServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>simpleJSPServlet</servlet-name>
+        <url-pattern>/simpleJSPServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
